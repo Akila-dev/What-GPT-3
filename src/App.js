@@ -17,7 +17,7 @@ const App = () => {
       <div className="App">
         <div className="gradient__bg">
           <Navbar />
-          <div className="padding__top">
+          <div>
             <Header />
           </div>
         </div>

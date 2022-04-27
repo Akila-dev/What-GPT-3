@@ -2,6 +2,9 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+}
+
+html{
   scroll-behavior: smooth;
 }
 
@@ -52,7 +55,7 @@ a {
 }
 
 .padding__top {
-  padding-top: 4rem;
+  padding-top: 3rem;
 }
 
 .gradient__text {
@@ -68,6 +71,11 @@ a {
 
 .section__margin {
   margin: 4rem 6rem;
+}
+
+.id__positioning{
+  margin-top: -4rem;
+  padding-top: 4rem;
 }
 
 .scale-up-center {
@@ -147,9 +155,9 @@ a {
 
 @media screen and (max-width: 550px) {
   .section__padding {
-    padding: 4rem 2rem;
+    padding: 4rem 1.2rem;
   }
   .section__margin {
-    margin: 4rem 2rem;
+    margin: 4rem 1.2rem;
   }
 }
